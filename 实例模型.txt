@@ -1,0 +1,10 @@
+评论模型
+ID        uint `gorm:"primarykey"`  
+CreatedAt time.Time  
+UpdatedAt time.Time  
+PostID    uint  
+Email     string `gorm:"size:200"`  
+Author    string `gorm:"size:200"`  
+Content   string  
+IP        string `gorm:"size:64"`
+
